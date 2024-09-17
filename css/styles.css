@@ -1,0 +1,113 @@
+body {
+    background-image: url("../images/white_buds.png");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    color: white;
+}
+ h1 {
+    width: 30%;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(220, 142, 178);
+    border-radius: 20px;
+ }
+
+ h1 span {
+    color: rgb(79, 109, 207);
+ }
+ 
+
+header {
+
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    width: 60%;
+    margin: 0 auto;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 1.5px solid rgba(255, 228, 255, 0.18);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    padding: 10px;
+    margin-right: 15px;
+}
+
+
+
+
+nav ul li a:hover {
+    width: 20px;
+    border-radius: 20px;
+    background-color: rgb(123, 203, 195);
+    transform: scale(1.1);
+    
+  }
+
+nav a {
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+header img {
+    margin: 20px 0;
+    border-radius: 30px;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+header img:hover {
+    transform: scale(1.1); 
+    
+}
+
+
+main {
+    margin: 20px 30px 20px 30px;
+    text-align: center;
+}
+
+main a {
+    text-decoration: none;
+    color: rgb(15, 210, 177);
+}
+
+
+footer {
+    font-size: 20px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(15, 210, 177);
+}
+
+
+main div img {
+    width: 300px; 
+    margin: 20px 20px; 
+    border-radius: 20px; 
+    transition: transform 0.3s ease; 
+  }
+  
+  
+  main div img:hover {
+    transform: scale(1.1); 
+  }
